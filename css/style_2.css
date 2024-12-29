@@ -1,0 +1,147 @@
+.multi-mega-menu {
+    position: static !important;
+}
+
+.multi-mega-menu-wrapper {
+    width: 100%;
+    max-width: 1170px;
+    position: absolute;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-width: 235px;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-box-shadow: 0 8px 83px rgb(40 40 40 / 8%);
+    -khtml-box-shadow: 0 8px 83px rgba(40,40,40,8%);
+    -moz-box-shadow: 0 8px 83px rgba(40,40,40,8%);
+    -ms-box-shadow: 0 8px 83px rgba(40,40,40,8%);
+    -o-box-shadow: 0 8px 83px rgba(40,40,40,8%);
+    box-shadow: 0 8px 83px rgb(40 40 40 / 8%);
+    -webkit-transition: all 300ms linear 0ms;
+    -khtml-transition: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -ms-transition: all 300ms linear 0ms;
+    -o-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    -webkit-border-radius: 0 0 7px 7px;
+    -khtml-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    -ms-border-radius: 0 0 7px 7px;
+    -o-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-transform: scaleY(0);
+    -khtml-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    -webkit-transform-origin: 0 0 0;
+    -ms-transform-origin: 0 0 0;
+    -o-transform-origin: 0 0 0;
+}
+.multi-mega-menu:hover .multi-mega-menu-wrapper{
+    visibility: visible;
+    opacity: 1;
+    clip: inherit;
+    -webkit-transform: scaleY(1);
+    -khtml-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+}
+li.multi-mega-menu > a{
+    position: relative;
+}
+li.multi-mega-menu > a:after {
+    color: #ffffff;
+    right: -16px;
+    content: "+";
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    transition: .3s all ease-in-out;
+}
+
+/* Widgets Style */
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0;
+    position: relative;
+    -webkit-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    display: inline-block !important;
+}
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item a:hover {
+    color: #c1282a;
+}
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item {
+    margin: 0;
+    padding: 0;
+    display: block !important;
+}
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item:before,
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item:after,
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item a:before,
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item a:after{
+    content: none !important;
+}
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item img {
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    max-width: 170px;
+    z-index: 9;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 12px 32px rgb(0 0 0 / 12%);
+    -khtml-box-shadow: 0 12px 32px rgba(0,0,0,.12);
+    -moz-box-shadow: 0 12px 32px rgba(0,0,0,.12);
+    -ms-box-shadow: 0 12px 32px rgba(0,0,0,.12);
+    -o-box-shadow: 0 12px 32px rgba(0,0,0,.12);
+    box-shadow: 0 12px 32px rgb(0 0 0 / 12%);
+    -webkit-transition: all .25s cubic-bezier(.645,.045,.355,1);
+    -khtml-transition: all .25s cubic-bezier(.645,.045,.355,1);
+    -moz-transition: all .25s cubic-bezier(.645,.045,.355,1);
+    -ms-transition: all .25s cubic-bezier(.645,.045,.355,1);
+    -o-transition: all .25s cubic-bezier(.645,.045,.355,1);
+    transition: all .25s cubic-bezier(.645,.045,.355,1);
+    margin-left: 20px;
+    opacity: 0;
+    visibility: hidden;
+    border: 3px solid #fff;
+}
+
+.appilo-mega-menu-lists .mega-menu-list-item .mega-menu-item a:hover img {
+    opacity: 1;
+    visibility: visible;
+    top: 10px;
+}
+
+/*All Site Menu Fix*/
+.home-page-one .navbar-nav ul {
+    position: inherit;
+}
+
+.app-res-menu-item .multi-mega-menu-wrapper {
+    width: 1170px;
+    left: -33%;
+}
+.medi-app-main-navigation .multi-mega-menu-wrapper {
+    left: -35%;
+}
